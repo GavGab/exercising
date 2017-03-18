@@ -1,0 +1,559 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+body {
+	background-color: #fff;
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	cursor: pointer;
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 800px;
+	max-width: 1000px;
+	margin: 30px auto;
+}
+
+#topBar {
+	width: 100%;
+	margin-bottom: 10px; 
+}
+
+#eWrapper {
+	float: left;
+	width: 40%;
+}
+
+#eWrapper a {
+	margin-left: 10px;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 15px;
+}
+
+#eWrapper a:hover {
+	text-decoration: none;
+}
+
+#eWrapper a span {
+	font-weight: bold;
+	vertical-align: super;
+}
+
+#socialWrapper {
+	width: 60%;
+	margin-left: 40%;
+}
+
+#socialWrapper a {
+	float: right;
+	margin-right: 10px;
+}
+
+#naslovna {
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, .125);
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+#novineWrapper {
+	width: 25%;
+	height: 124px;
+	float: left;
+	overflow: hidden;
+}
+
+#novineWrapper a:hover {
+	opacity: 0.8;
+}
+
+#novineWrapper img {
+	width: 70%;
+	height: 230px;
+	margin: 5px 0 0 40px;
+	transform: rotate(-15deg);
+}
+
+#logoWrapper {
+	width: 50%;
+	float: left;
+}
+
+#logoWrapper img {
+	width: 58%;
+	margin: 0 0 0 110px;
+}
+
+#datumKalendarKurs {
+	text-align: center;
+}
+
+#datumKalendarKurs span {
+	margin: 0 0 0 5px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#pretragaJezikVremeIzmena {
+	width: 24.5%;
+	height: 124px;
+	float: left;
+}
+
+#pretragaJezik {
+	margin: 0 0 0 25%;
+}
+
+#pretragaJezik a {
+	font-size: 11px;
+	padding: 0 20px 0 10px;
+	display: inline-block;
+	border-right: 1px solid rgba(0, 0, 0, .200);
+}
+
+#pretragaJezik a:last-child {
+	border-right: none;
+}
+
+#pretragaJezik img {
+	width: 15px;
+	height: 15px;
+	vertical-align: sub;
+}
+
+#vreme {
+	font-size: 12px;
+}
+
+#vreme:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#vreme img {
+	margin: 10% 0 0 2%;
+	float: right;
+}
+
+#vreme aside {
+	margin: 10% 0 0 50%;
+	float: right;
+}
+
+#izmena {
+	font-size: 11px;
+	margin: 11% 0 0 0;
+	float: right;
+}
+
+#mainMenu {
+	width: 100%;
+	padding: 10px 0 12px 0;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #000;
+}
+
+#mainMenu ul, .bottomMenu ul, #bottomNavigation ul {
+	list-style-type: none;
+}
+
+#mainMenu ul li {
+	display: inline-block;
+	float: left;
+	font-family: Georgia, sans-serif;
+}
+
+#mainMenu img {
+	height: 14px;
+}
+
+#mainMenu ul li a {
+	padding: 10px;
+}
+
+#mainMenu ul li a:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #000;
+}
+
+.istaknuce {
+	padding: 0 0 2% 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.levo {
+	width: 25%;
+	float: left;
+}
+
+.vesti {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.vesti:last-child {
+	border: none;
+}
+
+.kategorijaPorukaDatum {
+	margin-bottom: 10px;
+}
+
+.kategorija {
+	text-transform: uppercase;
+	color: #676767;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.poruka {
+	float: right;
+	margin: 0 1.5% 2px;
+	width: 18px;
+	height: 18px;
+}
+
+.naslov {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 1.1rem;
+	font-family: "Roboto Slab", sans-serif;
+}
+
+.autor, .autor a {
+	color: #aaa;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.autor {
+	margin-bottom: 5px;
+}
+
+section {
+	width: 40%;
+	float: left;
+	margin: 0 8px;
+}
+
+section img {
+	width: 100%;
+}
+
+.desno {
+	width: 33%;
+	float: left;
+}
+
+.vestiDesno {
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.vestiDesno img {
+	float: left;
+	padding-right: 10px;
+}
+
+.datum {
+	float: right;
+	margin: 0 1.5% 0 0;
+	padding: 1% 0 0 2%;
+	font-size: 12px;
+	color: #676767;
+	border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+.strelice {
+	margin: 0 0 0 3%;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.strelice:hover {
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, .125);
+}
+
+.sestSlika {
+	width: 100%;
+	margin: 30px 0 35px 0;
+}
+
+.sestSlika section {
+	width: 15.4%;
+	max-height: 250px;
+	margin: 0 13px 0 0;
+}
+
+.jednaDoDruge {
+	margin: 0 0 15px 0;
+}
+
+.oblasti {
+	width: 100%;
+	margin: 0 0 40px 0;
+}
+
+.linijaKrozTekst {
+	width: 100%;
+	margin: 10px 0 20px 0;
+	line-height: 0.1em;
+	text-align: center;
+	border-bottom: 2px solid #211d1e;
+}
+
+.linijaKrozTekst span {
+	font-family: Georgia, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #fff;
+	color: #211d1e;
+	padding: 0 10px;
+}
+
+.cetiriSlike {
+	width: 22%;
+	margin: 0 2% 0 0;
+}
+
+.cetiriSlike img {
+	width: 110px;
+	padding-right: 10px;
+	float: left;
+}
+
+.cetiriSlike .kategorija {
+	display: block;
+	margin: 5px 0 10px 0;
+}
+
+.cetiriSlike span {
+	display: block;
+	margin: 0 0 5px 0;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.naslovcic {
+	display: block;
+	color: #111;
+	font-size: 0.875rem;
+}
+
+#svet .vesti, #drustvo .vesti, #hronika .vesti, #region .vesti, #srbija .vesti, #beograd .vesti, #sport .vesti, #spektar .vesti {
+	width: 95%;	
+}
+
+.svetSlika {
+	width: 100%;
+}
+
+#svet .naslov h3 {
+	margin-bottom: 10px;
+}
+
+#politika section, #ekonomija section, #kultura section, #satirikon section, #sarenaStrana section {
+	width: 46%;
+	margin-left: 0;
+}
+
+#politika .levo, #ekonomija .levo, #kultura .levo, #satirikon .levo, #sarenaStrana .levo {
+	margin-right: 1%;
+}
+
+#arhivaLink {
+	margin: 30px 0 0 80px;
+	padding: 12px;
+}
+
+iframe {
+	width: 60%;
+	margin-right: 1%;
+	float: left;
+}
+
+#liste {
+	width: 39%;
+	height: 355px;
+	float: left;
+	overflow: hidden;
+	border-top: 1px solid rgba(0, 0, 0, .125);
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+#liste:hover {
+	overflow-y: scroll;
+}
+
+.stvar {
+	padding: 20px 0 20px 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.stvar:last-child {
+	border-bottom: none;
+}
+
+.stvar a {
+	font-family: Georgia, sans-serif;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+}
+
+.stvar a img {
+	float: left;
+}
+
+.stvar a span {
+	display: inline-block;
+	margin-left: 4%;
+}
+
+.stvar:hover {
+	background-color: #ddd;
+}
+
+#sarenaStrana section {
+	margin-right: 2%;
+}
+
+#sakriveno {
+	height: 190px;
+	padding-right: 25px; 
+	overflow: hidden;
+}
+
+#sakriveno:hover {
+	overflow-y: scroll;
+}
+
+/* Scroll sirina */
+#sakriveno::-webkit-scrollbar, #liste::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Scroll putanja */
+#sakriveno::-webkit-scrollbar-track, #liste::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    background-color: #ebebeb;
+}
+
+/* Scroll kursor */
+#sakriveno::-webkit-scrollbar-thumb, #liste::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #afafaf;  
+}
+
+#riznica section {
+	width: 31.7%;
+}
+
+#posta {
+	display: inline-block;
+	margin-left: 15%;
+}
+
+hr {
+	border: 1px solid #000;
+	margin-bottom: 2rem;
+}
+
+footer {
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+footer .petKolona {
+	width: 18.3%;
+	height: 210px;
+	float: left;
+	padding-left: 16px;
+	border-left: 1px solid rgba(0, 0, 0, .125);
+	font-family: "Roboto Slab", sans-serif;
+}
+
+.petKolona:first-child, .petKolona:nth-child(3) {
+	border-left: none;
+}
+
+.petKolona span {
+	display: inline-block;
+	color: #211d1e;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.petKolona p {
+	margin-top: 10px;
+	font-size: .75rem;
+	color: #211d1e;
+}
+
+.bottomMenu ul li {
+	padding-bottom: 2px;
+	color: #111;
+}
+
+#boldMenu {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#bottomNavigation li {
+	float: left;
+	display: inline-block;
+	padding: 0 10px;
+	border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+#bottomNavigation li:first-child {
+	border-left: none;
+}
+
+#bottomNavigation li a {
+	font-size: 11px;
+	color: #aaa;
+}
+
+#vrhStrane {
+	display: block;
+	position: fixed;
+	right: 20px;
+	bottom: 60px;
+}
+
+#vrhStrane:hover {
+	opacity: 0.8;
+}
+
+#p {
+	font: bold-italic;
+}
